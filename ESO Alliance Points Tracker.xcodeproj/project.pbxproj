@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FC003081C95B2EA00DFC7AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC003071C95B2EA00DFC7AB /* AppDelegate.swift */; };
+		3FC0030A1C95B2EA00DFC7AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC003091C95B2EA00DFC7AB /* ViewController.swift */; };
+		3FC0030D1C95B2EA00DFC7AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC0030B1C95B2EA00DFC7AB /* Main.storyboard */; };
+		3FC0030F1C95B2EA00DFC7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC0030E1C95B2EA00DFC7AB /* Assets.xcassets */; };
+		3FC003121C95B2EA00DFC7AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC003101C95B2EA00DFC7AB /* LaunchScreen.storyboard */; };
+		3FC0031D1C95B2EA00DFC7AB /* ESO_Alliance_Points_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0031C1C95B2EA00DFC7AB /* ESO_Alliance_Points_TrackerTests.swift */; };
+		3FC003281C95B2EA00DFC7AB /* ESO_Alliance_Points_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC003271C95B2EA00DFC7AB /* ESO_Alliance_Points_TrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FC003191C95B2EA00DFC7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC002FC1C95B2EA00DFC7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC003031C95B2EA00DFC7AB;
+			remoteInfo = "ESO Alliance Points Tracker";
+		};
+		3FC003241C95B2EA00DFC7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC002FC1C95B2EA00DFC7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC003031C95B2EA00DFC7AB;
+			remoteInfo = "ESO Alliance Points Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FC003041C95B2EA00DFC7AB /* ESO Alliance Points Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESO Alliance Points Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC003071C95B2EA00DFC7AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FC003091C95B2EA00DFC7AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FC0030C1C95B2EA00DFC7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FC0030E1C95B2EA00DFC7AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FC003111C95B2EA00DFC7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FC003131C95B2EA00DFC7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC003181C95B2EA00DFC7AB /* ESO Alliance Points TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ESO Alliance Points TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC0031C1C95B2EA00DFC7AB /* ESO_Alliance_Points_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESO_Alliance_Points_TrackerTests.swift; sourceTree = "<group>"; };
+		3FC0031E1C95B2EA00DFC7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC003231C95B2EA00DFC7AB /* ESO Alliance Points TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ESO Alliance Points TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC003271C95B2EA00DFC7AB /* ESO_Alliance_Points_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESO_Alliance_Points_TrackerUITests.swift; sourceTree = "<group>"; };
+		3FC003291C95B2EA00DFC7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FC003011C95B2EA00DFC7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC003151C95B2EA00DFC7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC003201C95B2EA00DFC7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FC002FB1C95B2EA00DFC7AB = {
+			isa = PBXGroup;
+			children = (
+				3FC003061C95B2EA00DFC7AB /* ESO Alliance Points Tracker */,
+				3FC0031B1C95B2EA00DFC7AB /* ESO Alliance Points TrackerTests */,
+				3FC003261C95B2EA00DFC7AB /* ESO Alliance Points TrackerUITests */,
+				3FC003051C95B2EA00DFC7AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FC003051C95B2EA00DFC7AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FC003041C95B2EA00DFC7AB /* ESO Alliance Points Tracker.app */,
+				3FC003181C95B2EA00DFC7AB /* ESO Alliance Points TrackerTests.xctest */,
+				3FC003231C95B2EA00DFC7AB /* ESO Alliance Points TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FC003061C95B2EA00DFC7AB /* ESO Alliance Points Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				3FC003071C95B2EA00DFC7AB /* AppDelegate.swift */,
+				3FC003091C95B2EA00DFC7AB /* ViewController.swift */,
+				3FC0030B1C95B2EA00DFC7AB /* Main.storyboard */,
+				3FC0030E1C95B2EA00DFC7AB /* Assets.xcassets */,
+				3FC003101C95B2EA00DFC7AB /* LaunchScreen.storyboard */,
+				3FC003131C95B2EA00DFC7AB /* Info.plist */,
+			);
+			path = "ESO Alliance Points Tracker";
+			sourceTree = "<group>";
+		};
+		3FC0031B1C95B2EA00DFC7AB /* ESO Alliance Points TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FC0031C1C95B2EA00DFC7AB /* ESO_Alliance_Points_TrackerTests.swift */,
+				3FC0031E1C95B2EA00DFC7AB /* Info.plist */,
+			);
+			path = "ESO Alliance Points TrackerTests";
+			sourceTree = "<group>";
+		};
+		3FC003261C95B2EA00DFC7AB /* ESO Alliance Points TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FC003271C95B2EA00DFC7AB /* ESO_Alliance_Points_TrackerUITests.swift */,
+				3FC003291C95B2EA00DFC7AB /* Info.plist */,
+			);
+			path = "ESO Alliance Points TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FC003031C95B2EA00DFC7AB /* ESO Alliance Points Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC0032C1C95B2EA00DFC7AB /* Build configuration list for PBXNativeTarget "ESO Alliance Points Tracker" */;
+			buildPhases = (
+				3FC003001C95B2EA00DFC7AB /* Sources */,
+				3FC003011C95B2EA00DFC7AB /* Frameworks */,
+				3FC003021C95B2EA00DFC7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ESO Alliance Points Tracker";
+			productName = "ESO Alliance Points Tracker";
+			productReference = 3FC003041C95B2EA00DFC7AB /* ESO Alliance Points Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FC003171C95B2EA00DFC7AB /* ESO Alliance Points TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC0032F1C95B2EA00DFC7AB /* Build configuration list for PBXNativeTarget "ESO Alliance Points TrackerTests" */;
+			buildPhases = (
+				3FC003141C95B2EA00DFC7AB /* Sources */,
+				3FC003151C95B2EA00DFC7AB /* Frameworks */,
+				3FC003161C95B2EA00DFC7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC0031A1C95B2EA00DFC7AB /* PBXTargetDependency */,
+			);
+			name = "ESO Alliance Points TrackerTests";
+			productName = "ESO Alliance Points TrackerTests";
+			productReference = 3FC003181C95B2EA00DFC7AB /* ESO Alliance Points TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FC003221C95B2EA00DFC7AB /* ESO Alliance Points TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC003321C95B2EA00DFC7AB /* Build configuration list for PBXNativeTarget "ESO Alliance Points TrackerUITests" */;
+			buildPhases = (
+				3FC0031F1C95B2EA00DFC7AB /* Sources */,
+				3FC003201C95B2EA00DFC7AB /* Frameworks */,
+				3FC003211C95B2EA00DFC7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC003251C95B2EA00DFC7AB /* PBXTargetDependency */,
+			);
+			name = "ESO Alliance Points TrackerUITests";
+			productName = "ESO Alliance Points TrackerUITests";
+			productReference = 3FC003231C95B2EA00DFC7AB /* ESO Alliance Points TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FC002FC1C95B2EA00DFC7AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = RKrueger;
+				TargetAttributes = {
+					3FC003031C95B2EA00DFC7AB = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = RF3KK2425J;
+					};
+					3FC003171C95B2EA00DFC7AB = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = RF3KK2425J;
+						TestTargetID = 3FC003031C95B2EA00DFC7AB;
+					};
+					3FC003221C95B2EA00DFC7AB = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = RF3KK2425J;
+						TestTargetID = 3FC003031C95B2EA00DFC7AB;
+					};
+				};
+			};
+			buildConfigurationList = 3FC002FF1C95B2EA00DFC7AB /* Build configuration list for PBXProject "ESO Alliance Points Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FC002FB1C95B2EA00DFC7AB;
+			productRefGroup = 3FC003051C95B2EA00DFC7AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FC003031C95B2EA00DFC7AB /* ESO Alliance Points Tracker */,
+				3FC003171C95B2EA00DFC7AB /* ESO Alliance Points TrackerTests */,
+				3FC003221C95B2EA00DFC7AB /* ESO Alliance Points TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FC003021C95B2EA00DFC7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC003121C95B2EA00DFC7AB /* LaunchScreen.storyboard in Resources */,
+				3FC0030F1C95B2EA00DFC7AB /* Assets.xcassets in Resources */,
+				3FC0030D1C95B2EA00DFC7AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC003161C95B2EA00DFC7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC003211C95B2EA00DFC7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FC003001C95B2EA00DFC7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC0030A1C95B2EA00DFC7AB /* ViewController.swift in Sources */,
+				3FC003081C95B2EA00DFC7AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC003141C95B2EA00DFC7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC0031D1C95B2EA00DFC7AB /* ESO_Alliance_Points_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC0031F1C95B2EA00DFC7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC003281C95B2EA00DFC7AB /* ESO_Alliance_Points_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FC0031A1C95B2EA00DFC7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC003031C95B2EA00DFC7AB /* ESO Alliance Points Tracker */;
+			targetProxy = 3FC003191C95B2EA00DFC7AB /* PBXContainerItemProxy */;
+		};
+		3FC003251C95B2EA00DFC7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC003031C95B2EA00DFC7AB /* ESO Alliance Points Tracker */;
+			targetProxy = 3FC003241C95B2EA00DFC7AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FC0030B1C95B2EA00DFC7AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC0030C1C95B2EA00DFC7AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FC003101C95B2EA00DFC7AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC003111C95B2EA00DFC7AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FC0032A1C95B2EA00DFC7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FC0032B1C95B2EA00DFC7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FC0032D1C95B2EA00DFC7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ESO Alliance Points Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Krueger.ESO-Alliance-Points-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FC0032E1C95B2EA00DFC7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ESO Alliance Points Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Krueger.ESO-Alliance-Points-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FC003301C95B2EA00DFC7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ESO Alliance Points TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Krueger.ESO-Alliance-Points-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESO Alliance Points Tracker.app/ESO Alliance Points Tracker";
+			};
+			name = Debug;
+		};
+		3FC003311C95B2EA00DFC7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ESO Alliance Points TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Krueger.ESO-Alliance-Points-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESO Alliance Points Tracker.app/ESO Alliance Points Tracker";
+			};
+			name = Release;
+		};
+		3FC003331C95B2EA00DFC7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ESO Alliance Points TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Krueger.ESO-Alliance-Points-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ESO Alliance Points Tracker";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3FC003341C95B2EA00DFC7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ESO Alliance Points TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Krueger.ESO-Alliance-Points-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ESO Alliance Points Tracker";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FC002FF1C95B2EA00DFC7AB /* Build configuration list for PBXProject "ESO Alliance Points Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC0032A1C95B2EA00DFC7AB /* Debug */,
+				3FC0032B1C95B2EA00DFC7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC0032C1C95B2EA00DFC7AB /* Build configuration list for PBXNativeTarget "ESO Alliance Points Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC0032D1C95B2EA00DFC7AB /* Debug */,
+				3FC0032E1C95B2EA00DFC7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FC0032F1C95B2EA00DFC7AB /* Build configuration list for PBXNativeTarget "ESO Alliance Points TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC003301C95B2EA00DFC7AB /* Debug */,
+				3FC003311C95B2EA00DFC7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FC003321C95B2EA00DFC7AB /* Build configuration list for PBXNativeTarget "ESO Alliance Points TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC003331C95B2EA00DFC7AB /* Debug */,
+				3FC003341C95B2EA00DFC7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FC002FC1C95B2EA00DFC7AB /* Project object */;
+}
